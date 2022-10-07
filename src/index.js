@@ -25,7 +25,7 @@ function onInput (e) {
         renderCountriesList(data);
         })
         .catch((error) =>
-            Notify.failure("Oops, there is no country with that name")
+        Notify.failure("Oops, there is no country with that name")
         )
 };
 
